@@ -11,9 +11,13 @@ use Tests\DuskTestCase;
 class ExampleTest extends DuskTestCase
 {
     /**
-     * A basic browser test example.
+     * From this testBasicExample method automatic test of our current method . This method browse given route
+     * and upload sample CSV and submit the CSV and give a result
      *
-     * @return void
+     * @param Browser $browser
+     *
+     * @author Nadimul Haque
+     * @return boolean
      */
     public function testBasicExample()
     {
